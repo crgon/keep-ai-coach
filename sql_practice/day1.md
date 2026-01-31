@@ -9,6 +9,7 @@ FROM table_name;（表的名字）
 SELECT DISTINCT column1, column2, ...
 FROM table_name;
 区别：和上面的区别在于只会列出不一样的
+
 SELECT COUNT(DISTINCT Country) FROM Customers;
 这个会列出不一样的数字
 
@@ -16,6 +17,17 @@ SELECT COUNT(DISTINCT Country) FROM Customers;
 SELECT column1, column2, ...
 FROM table_name
 WHERE condition;
+
+SELECT * FROM Products
+WHERE Price BETWEEN 50 AND 60;
+
+SELECT * FROM Customers
+WHERE City LIKE 's%';
+(这个是以s作为开头)
+
+SELECT * FROM Customers
+WHERE City IN ('Paris','London');
+
 
 <img width="1719" height="724" alt="image" src="https://github.com/user-attachments/assets/635d3c46-0e6c-44b9-ac76-26b83b1540ec" />
 
