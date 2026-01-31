@@ -4,12 +4,14 @@
 1.select用法
 SELECT column1, column2, ...(列的名字)
 FROM table_name;（表的名字）
+
 2.select distinct用法
 SELECT DISTINCT column1, column2, ...
 FROM table_name;
 区别：和上面的区别在于只会列出不一样的
 SELECT COUNT(DISTINCT Country) FROM Customers;
 这个会列出不一样的数字
+
 3.where用法
 SELECT column1, column2, ...
 FROM table_name
