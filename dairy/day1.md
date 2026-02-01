@@ -1,6 +1,7 @@
 ## 一、重要的一些sql语句
 
-![](images/day1-image.png)
+<img width="1013" height="556" alt="image" src="https://github.com/user-attachments/assets/26270bb7-2abb-40a2-88e3-3f12675886e2" />
+
 
 ### 1.select用法
 
@@ -42,7 +43,7 @@ SELECT \* FROM Customers
 
 WHERE City IN ('Paris','London');
 
-![](images/day1-image-1.png)
+
 
 ### 4.order by
 
@@ -122,6 +123,8 @@ CREATE TABLE table\_name (
 &#x20;   ....
 
 );
+<img width="903" height="347" alt="image" src="https://github.com/user-attachments/assets/2c5afac4-5648-4676-b92b-0ea40a24e4ee" />
+
 
 ### 11.insert
 
@@ -142,7 +145,7 @@ VALUES
 
 这个添加多行
 
-![](images/day1-image-2.png)
+
 
 ## 二、安装轻量级SQL
 
@@ -156,7 +159,8 @@ VALUES
 
 ### 3.使用命令行验证是否成功安装
 
-![](images/day1-image-3.png)
+<img width="850" height="200" alt="image" src="https://github.com/user-attachments/assets/5f26f5a7-e384-4f47-8ecd-aef016469083" />
+
 
 ### 4.安装可视化工具
 
@@ -206,8 +210,7 @@ insert into workouts values (1, 2, 2025, 50, 137),
 (4, 2, 2022, 23, 78),
 (5, 5, 2024, 55, 189);
 ```
+<img width="427" height="196" alt="image" src="https://github.com/user-attachments/assets/69dc282e-8f3e-4b76-aa08-6f3533afda7a" />
+<img width="703" height="200" alt="image" src="https://github.com/user-attachments/assets/0cbe44a2-1b59-4adc-bc1c-5584e75dc9be" />
 
-![](images/day1-image-5.png)
-
-![](images/day1-image-4.png)
 
