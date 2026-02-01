@@ -213,4 +213,11 @@ insert into workouts values (1, 2, 2025, 50, 137),
 <img width="427" height="196" alt="image" src="https://github.com/user-attachments/assets/69dc282e-8f3e-4b76-aa08-6f3533afda7a" />
 <img width="703" height="200" alt="image" src="https://github.com/user-attachments/assets/0cbe44a2-1b59-4adc-bc1c-5584e75dc9be" />
 
-
+### 3.思考题目：
+#### 1）解释workouts表中的user_id字段为什么要这样设计？
+- workouts表中的user_id要作为外键相关和users表中id联系起来
+####2）如果要记录用户的体重变化，你会如何设计表结构？为什么？
+- 按照时间作为主键或者聚集索引，来记录体重按时间变化
+### 4.今日学习反思：
+- 这是对于最简单的数据库语句的学习，但是两张表存在很多问题，比如如何将数据进行相关约束关联，需要在后面的学习中进行改进
+- 记录在后续要进行这个表的进一步完善后体重变化表的设计
