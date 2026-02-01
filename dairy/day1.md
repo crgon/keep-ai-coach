@@ -168,7 +168,7 @@ VALUES
 
 ## 三、检验题目
 
-1. 在`keep_learning`数据库中创建两张表：
+### 1.在`keep_learning`数据库中创建两张表：
 
    * `users`表：包含id, name, age, gender, join\_date
 
@@ -193,7 +193,7 @@ alter table users add age int;
 #.
 ```
 
-* 向每张表插入至少5条模拟数据（数据要合理，比如年龄在18-50之间）
+### 2.向每张表插入至少5条模拟数据（数据要合理，比如年龄在18-50之间）
 
 ```sql
 insert into users
